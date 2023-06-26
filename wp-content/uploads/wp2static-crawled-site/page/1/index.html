@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en-US" >
+<head>
+<meta charset="UTF-8">
+<script>
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}});
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- WP_HEAD() START -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900|Source+Sans+Pro:100,200,300,400,500,600,700,800,900|Plus+Jakarta+Sans:100,200,300,400,500,600,700,800,900" >
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900|Source+Sans+Pro:100,200,300,400,500,600,700,800,900|Plus+Jakarta+Sans:100,200,300,400,500,600,700,800,900">
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v20.9 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Home - Outsourcing Developers</title>
+	<meta name="description" content="Are you ready to take your WordPress development to the next level? Look no further than Outsource Developers, the premier provider of top-tier outsourcing services for virtual WordPress developers." />
+	<link rel="canonical" href="https://od-wp.test/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Home - Outsourcing Developers" />
+	<meta property="og:description" content="Are you ready to take your WordPress development to the next level? Look no further than Outsource Developers, the premier provider of top-tier outsourcing services for virtual WordPress developers." />
+	<meta property="og:url" content="https://od-wp.test/" />
+	<meta property="og:site_name" content="Outsourcing Developers" />
+	<meta property="article:modified_time" content="2023-06-08T03:36:47+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://od-wp.test/","url":"https://od-wp.test/","name":"Home - Outsourcing Developers","isPartOf":{"@id":"https://od-wp.test/#website"},"datePublished":"2023-05-30T07:04:58+00:00","dateModified":"2023-06-08T03:36:47+00:00","description":"Are you ready to take your WordPress development to the next level? Look no further than Outsource Developers, the premier provider of top-tier outsourcing services for virtual WordPress developers.","breadcrumb":{"@id":"https://od-wp.test/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://od-wp.test/"]}]},{"@type":"BreadcrumbList","@id":"https://od-wp.test/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://od-wp.test/#website","url":"https://od-wp.test/","name":"Outsourcing Developers","description":"Trusted IT Technology talent provider for your business","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://od-wp.test/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Outsourcing Developers &raquo; Feed" href="https://dedicated.test/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Outsourcing Developers &raquo; Comments Feed" href="https://dedicated.test/comments/feed/" />
+<style id='wp-block-library-inline-css'>
+:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px;--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{clip:rect(1px,1px,1px,1px);word-wrap:normal!important;border:0;-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{clip:auto!important;background-color:#ddd;-webkit-clip-path:none;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}figure{margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+</style>
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://dedicated.test/wp-includes/css/classic-themes.min.css?ver=6.2.2' media='all' />
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='sp-lc-swiper-css' href='https://dedicated.test/wp-content/plugins/logo-carousel-free/public/assets/css/swiper-bundle.min.css?ver=3.4.20' media='all' />
+<link rel='stylesheet' id='sp-lc-font-awesome-css' href='https://dedicated.test/wp-content/plugins/logo-carousel-free/public/assets/css/font-awesome.min.css?ver=3.4.20' media='all' />
+<link rel='stylesheet' id='sp-lc-style-css' href='https://dedicated.test/wp-content/plugins/logo-carousel-free/public/assets/css/style.min.css?ver=3.4.20' media='all' />
+<style id='sp-lc-style-inline-css'>
+div#logo-carousel-free-125.logo-carousel-free .sp-lc-logo{border: 0px solid #dddddd;}div#logo-carousel-free-125.logo-carousel-free .sp-lc-logo:hover{border-color: #16a08b;}@media only screen and (max-width: 576px) {#logo-carousel-free-125.sp-lc-container .sp-lc-button-prev,#logo-carousel-free-125.sp-lc-container .sp-lc-button-next {display: none;}#logo-carousel-free-125.sp-lc-container .sp-lc-pagination .swiper-pagination-bullet {display: none;}} .logo-carousel-free-area#logo-carousel-free-125{position: relative;}#lcp-preloader-125{position: absolute;left: 0;top: 0;height: 100%;width: 100%;text-align: center;display: flex;align-items: center;justify-content: center;background: #fff;z-index: 9999;} .logo-carousel-free-area#logo-carousel-free-125 .sp-logo-carousel-section-title{margin-bottom: 30px;}@media screen and (min-width: 1200px ){.logo-carousel-free-area#logo-carousel-free-125 .sp-logo-carousel:not([class*="-initialized"]) > .swiper-wrapper {display: flex;width: calc( 100% + 12px );}.logo-carousel-free-area#logo-carousel-free-125 .sp-logo-carousel:not([class*="-initialized"]) > .swiper-wrapper > .swiper-slide {width: 16.666666666667%;padding-right: 12px;}}
+</style>
+<link rel='stylesheet' id='oxygen-css' href='https://dedicated.test/wp-content/plugins/oxygen/component-framework/oxygen.css?ver=4.6.2' media='all' />
+<style id='wpgb-head-inline-css'>
+.wp-grid-builder:not(.wpgb-template),.wpgb-facet{opacity:0.01}.wpgb-facet fieldset{margin:0;padding:0;border:none;outline:none;box-shadow:none}.wpgb-facet fieldset:last-child{margin-bottom:40px;}.wpgb-facet fieldset legend.wpgb-sr-only{height:1px;width:1px}
+</style>
+<script src='https://dedicated.test/wp-includes/js/jquery/jquery.min.js?ver=3.6.4' id='jquery-core-js'></script>
+<link rel="https://api.w.org/" href="https://dedicated.test/wp-json/" /><link rel="alternate" type="application/json" href="https://dedicated.test/wp-json/wp/v2/pages/9" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://dedicated.test/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.2.2" />
+<link rel='shortlink' href='https://dedicated.test/' />
+<link rel="alternate" type="application/json+oembed" href="https://dedicated.test/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdedicated.test%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://dedicated.test/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdedicated.test%2F&#038;format=xml" />
+<noscript><style>.wp-grid-builder .wpgb-card.wpgb-card-hidden .wpgb-card-wrapper{opacity:1!important;visibility:visible!important;transform:none!important}.wpgb-facet {opacity:1!important;pointer-events:auto!important}.wpgb-facet *:not(.wpgb-pagination-facet){display:none}</style></noscript><link rel="icon" href="https://dedicated.test/wp-content/uploads/2023/06/od_icon.png" sizes="32x32" />
+<link rel="icon" href="https://dedicated.test/wp-content/uploads/2023/06/od_icon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://dedicated.test/wp-content/uploads/2023/06/od_icon.png" />
+<meta name="msapplication-TileImage" content="https://dedicated.test/wp-content/uploads/2023/06/od_icon.png" />
+<link rel='stylesheet' id='oxygen-cache-11-css' href='//dedicated.test/wp-content/uploads/oxygen/css/11.css?cache=1687746697&#038;ver=6.2.2' media='all' />
+<link rel='stylesheet' id='oxygen-cache-9-css' href='//dedicated.test/wp-content/uploads/oxygen/css/9.css?cache=1687746699&#038;ver=6.2.2' media='all' />
+<link rel='stylesheet' id='oxygen-universal-styles-css' href='//dedicated.test/wp-content/uploads/oxygen/css/universal.css?cache=1687746683&#038;ver=6.2.2' media='all' />
+<!-- END OF WP_HEAD() -->
+</head>
+<body class="home page-template-default page page-id-9 wp-embed-responsive  oxygen-body" >
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+
+
+						<section id="section-8-11" class=" ct-section" ><div class="ct-section-inner-wrap"><div id="text_block-10-11" class="ct-text-block" >Ready to go? contact us today and start your trial with a full time developer&nbsp;</div><img  id="image-20-11" alt="" src="https://dedicated.test/wp-content/uploads/2023/05/email.svg" class="ct-image" srcset="" sizes="(max-width: 22px) 100vw, 22px" /><a id="link-21-11" class="ct-link" href="mailto:info@od-wp.test" target="_self"  ><div id="text_block-22-11" class="ct-text-block" >info@od-wp.test</div></a></div></section><header id="_header-3-11" class="oxy-header-wrapper oxy-sticky-header oxy-overlay-header oxy-header" ><div id="_header_row-4-11" class="oxy-header-row" ><div class="oxy-header-container"><div id="_header_left-5-11" class="oxy-header-left" ><a id="link-26-11" class="ct-link" href="/" target="_self"  ><img  id="image-23-11" alt="Outsource Developer Logo" src="https://dedicated.test/wp-content/uploads/2023/06/logo-web-outsource-dev-04-1.png" class="ct-image" srcset="" sizes="(max-width: 242px) 100vw, 242px" /></a></div><div id="_header_center-6-11" class="oxy-header-center" ></div><div id="_header_right-7-11" class="oxy-header-right" >
+		<div id="-pro-menu-96-11" class="oxy-pro-menu " ><div class="oxy-pro-menu-mobile-open-icon " data-off-canvas-alignment=""><svg id="-pro-menu-96-11-open-icon"><use xlink:href="#FontAwesomeicon-ellipsis-v"></use></svg>Menu</div>
+
+                
+        <div class="oxy-pro-menu-container  oxy-pro-menu-dropdown-links-visible-on-mobile oxy-pro-menu-dropdown-links-toggle oxy-pro-menu-show-dropdown" data-aos-duration="400" 
+
+             data-oxy-pro-menu-dropdown-animation="fade-up"
+             data-oxy-pro-menu-dropdown-animation-duration="0.4"
+             data-entire-parent-toggles-dropdown="true"
+
+             
+                          data-oxy-pro-menu-dropdown-animation-duration="0.4"
+             
+                          data-oxy-pro-menu-dropdown-links-on-mobile="toggle">
+             
+            <div class="menu-main-container"><ul id="menu-main" class="oxy-pro-menu-list"><li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item menu-item-97"><a href="https://dedicated.test/" aria-current="page">Home</a></li>
+<li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98"><a href="https://dedicated.test/about/">Our Company</a>
+<ul class="sub-menu">
+	<li id="menu-item-128" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-128"><a href="https://dedicated.test/about/">About</a></li>
+	<li id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100"><a href="https://dedicated.test/introduce-outsource/">Introduce Outsource</a></li>
+</ul>
+</li>
+<li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-16"><a href="#">Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103"><a href="https://dedicated.test/service/">Outsource WordPress Developer</a></li>
+	<li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="https://dedicated.test/service-wordpress-web-development/">WordPress Development</a></li>
+</ul>
+</li>
+<li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-99"><a href="https://dedicated.test/contact/">Contact us</a>
+<ul class="sub-menu">
+	<li id="menu-item-129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-129"><a href="https://dedicated.test/contact/">Contact</a></li>
+	<li id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a href="https://dedicated.test/faq/">FAQ</a></li>
+</ul>
+</li>
+</ul></div>
+            <div class="oxy-pro-menu-mobile-close-icon"><svg id="svg--pro-menu-96-11"><use xlink:href="#FontAwesomeicon-close"></use></svg>close</div>
+
+        </div>
+
+        </div>
+
+		<script type="text/javascript">
+			jQuery('#-pro-menu-96-11 .oxy-pro-menu-show-dropdown .menu-item-has-children > a', 'body').each(function(){
+                jQuery(this).append('<div class="oxy-pro-menu-dropdown-icon-click-area"><svg class="oxy-pro-menu-dropdown-icon"><use xlink:href="#Lineariconsicon-chevron-down"></use></svg></div>');
+            });
+            jQuery('#-pro-menu-96-11 .oxy-pro-menu-show-dropdown .menu-item:not(.menu-item-has-children) > a', 'body').each(function(){
+                jQuery(this).append('<div class="oxy-pro-menu-dropdown-icon-click-area"></div>');
+            });			</script></div></div></div></header>
+				<script type="text/javascript">
+			jQuery(document).ready(function() {
+				var selector = "#_header-3-11",
+					scrollval = parseInt("300");
+				if (!scrollval || scrollval < 1) {
+										if (jQuery(window).width() >= 1121){
+											jQuery("body").css("margin-top", jQuery(selector).outerHeight());
+						jQuery(selector).addClass("oxy-sticky-header-active");
+										}
+									}
+				else {
+					var scrollTopOld = 0;
+					jQuery(window).scroll(function() {
+						if (!jQuery('body').hasClass('oxy-nav-menu-prevent-overflow')) {
+							if (jQuery(this).scrollTop() > scrollval 
+																) {
+								if (
+																		jQuery(window).width() >= 1121 && 
+																		!jQuery(selector).hasClass("oxy-sticky-header-active")) {
+									if (jQuery(selector).css('position')!='absolute') {
+										jQuery("body").css("margin-top", jQuery(selector).outerHeight());
+									}
+									jQuery(selector)
+										.addClass("oxy-sticky-header-active")
+																	}
+							}
+							else {
+								jQuery(selector)
+									.removeClass("oxy-sticky-header-fade-in")
+									.removeClass("oxy-sticky-header-active");
+								if (jQuery(selector).css('position')!='absolute') {
+									jQuery("body").css("margin-top", "");
+								}
+							}
+							scrollTopOld = jQuery(this).scrollTop();
+						}
+					})
+				}
+			});
+		</script><div id='inner_content-27-11' class='ct-inner-content'><section id="section-2-9" class=" ct-section" ><div class="ct-section-inner-wrap"><div id="new_columns-3-9" class="ct-new-columns" ><div id="div_block-4-9" class="ct-div-block" ><h1 id="headline-6-9" class="ct-headline">Introducing</h1><div id="text_block-18-9" class="ct-text-block" >Your Gateway to Unleashing the Full Potential of Your WordPress Development Projects</div><a id="link-19-9" class="ct-link oxel_icon_button__container" href="http://" target="_self"   role="button"><div id="text_block-21-9" class="ct-text-block oxel_icon_button_text" >Contact Us</div><div id="fancy_icon-20-9" class="ct-fancy-icon oxel_icon_button_icon" ><svg id="svg-fancy_icon-20-9"><use xlink:href="#Lineariconsicon-arrow-right"></use></svg></div></a></div><div id="div_block-5-9" class="ct-div-block" ><img  id="image-23-9" alt="Man Smiling Hero" src="https://dedicated.test/wp-content/uploads/2023/06/man-smiling-hero-2nd-size-1.png" class="ct-image" srcset="https://dedicated.test/wp-content/uploads/2023/06/man-smiling-hero-2nd-size-1.png 520w, https://dedicated.test/wp-content/uploads/2023/06/man-smiling-hero-2nd-size-1-241x300.png 241w" sizes="(max-width: 520px) 100vw, 520px" /></div></div></div></section><section id="section-24-9" class=" ct-section" ><div class="ct-section-inner-wrap"><div id="div_block-56-9" class="ct-div-block" ><h2 id="headline-211-9" class="ct-headline">Are you ready to take your WordPress development to the next level?</h2><div id="text_block-183-9" class="ct-text-block" >Look no further than Outsource Developers, the premier provider of top-tier outsourcing services for virtual WordPress developers. Say goodbye to the limitations of in-house resources and hello to a world of infinite possibilities. Our game-changing approach combines cutting-edge technology with a team of highly skilled professionals, empowering you to achieve extraordinary results and dominate the digital landscape.</div><div id="div_block-27-9" class="ct-div-block oxel_logo_slider" ><div id="code_block-28-9" class="ct-code-block" ><!-- --></div><div id="div_block-29-9" class="ct-div-block oxel_logo_slider__image_carrier"  position="0"><div id="div_block-30-9" class="ct-div-block oxel_logo_slider__logo" ><img  id="image-31-9" alt="" src="https://dedicated.test/wp-content/uploads/2023/05/layers.png" class="ct-image " srcset="" sizes="(max-width: 99px) 100vw, 99px" /></div><div id="div_block-32-9" class="ct-div-block oxel_logo_slider__logo" ><img  id="image-33-9" alt="" src="https://dedicated.test/wp-content/uploads/2023/05/sisyphus.png" class="ct-image " srcset="" sizes="(max-width: 142px) 100vw, 142px" /></div><div id="div_block-34-9" class="ct-div-block oxel_logo_slider__logo" ><img  id="image-35-9" alt="" src="https://dedicated.test/wp-content/uploads/2023/05/circooles.png" class="ct-image " srcset="" sizes="(max-width: 184px) 100vw, 184px" /></div><div id="div_block-36-9" class="ct-div-block oxel_logo_slider__logo" ><img  id="image-37-9" alt="" src="https://dedicated.test/wp-content/uploads/2023/05/catalog.png" class="ct-image " srcset="" sizes="(max-width: 134px) 100vw, 134px" /></div><div id="div_block-38-9" class="ct-div-block oxel_logo_slider__logo" ><img  id="image-39-9" alt="" src="https://dedicated.test/wp-content/uploads/2023/05/circooles_colour.png" class="ct-image " srcset="" sizes="(max-width: 184px) 100vw, 184px" /></div><div id="div_block-41-9" class="ct-div-block oxel_logo_slider__logo" ><img  id="image-42-9" alt="" src="https://dedicated.test/wp-content/uploads/2023/05/quotient.png" class="ct-image " srcset="" sizes="(max-width: 126px) 100vw, 126px" /></div></div></div><div id="div_block-181-9" class="ct-div-block" ><div id="shortcode-182-9" class="ct-shortcode" ><div id='logo-carousel-free-125' class="logo-carousel-free logo-carousel-free-area sp-lc-container"><div id="lcp-preloader-125" class="sp-logo-carousel-preloader"><img src="https://dedicated.test/wp-content/plugins/logo-carousel-free/admin/assets/images/spinner.svg" alt="loader-image"/></div><div id="sp-logo-carousel-id-125" class="swiper-container sp-logo-carousel lcp-preloader" dir="ltr"  data-carousel='{ "speed":600,"spaceBetween": 12, "autoplay": true, "infinite":true, "autoplay_speed": 3000, "stop_onHover": true, "pagination": false, "navigation": false, "MobileNav": false, "MobilePagi": false, "simulateTouch": true,"freeMode": false, "allowTouchMove": true, "slidesPerView": { "lg_desktop": 6, "desktop": 4, "tablet": 3, "mobile": 2, "mobile_landscape": 2 } }' data-carousel-starts-onscreen="false"><div class="swiper-wrapper"><div class="swiper-slide"><div class="sp-lc-logo"><img src="https://dedicated.test/wp-content/uploads/2023/05/layers.png" title="" alt="Client 1" width="99" height="32" class="sp-lc-image skip-lazy"></div></div><div class="swiper-slide"><div class="sp-lc-logo"><img src="https://dedicated.test/wp-content/uploads/2023/05/sisyphus.png" title="" alt="Client 2" width="142" height="40" class="sp-lc-image skip-lazy"></div></div><div class="swiper-slide"><div class="sp-lc-logo"><img src="https://dedicated.test/wp-content/uploads/2023/05/circooles.png" title="" alt="Client 3" width="184" height="48" class="sp-lc-image skip-lazy"></div></div><div class="swiper-slide"><div class="sp-lc-logo"><img src="https://dedicated.test/wp-content/uploads/2023/05/catalog.png" title="" alt="Client 4" width="134" height="40" class="sp-lc-image skip-lazy"></div></div><div class="swiper-slide"><div class="sp-lc-logo"><img src="https://dedicated.test/wp-content/uploads/2023/05/circooles_colour.png" title="" alt="Client 5" width="184" height="48" class="sp-lc-image skip-lazy"></div></div><div class="swiper-slide"><div class="sp-lc-logo"><img src="https://dedicated.test/wp-content/uploads/2023/05/quotient.png" title="" alt="Client 6" width="126" height="32" class="sp-lc-image skip-lazy"></div></div></div></div></div></div></div></div></div></section><section id="section-59-9" class=" ct-section" ><div class="ct-section-inner-wrap"><h1 id="headline-60-9" class="ct-headline">Services</h1><h2 id="headline-61-9" class="ct-headline">Unleash the Power of Outsource Developers</h2><div id="text_block-184-9" class="ct-text-block" >At Outsource Developers, we have handpicked a team of exceptional virtual developers who possess a deep understanding of the WordPress platform. From custom theme development to plugin integration and beyond, our experts are well-versed in all aspects of WordPress, enabling you to create breathtaking websites that captivate your audience.</div><div id="new_columns-63-9" class="ct-new-columns" ><div id="div_block-64-9" class="ct-div-block" ><div id="div_block-66-9" class="ct-div-block" ><img  id="image-69-9" alt="" src="https://dedicated.test/wp-content/uploads/2023/05/outsource-02-1.svg" class="ct-image" srcset="" sizes="(max-width: 80px) 100vw, 80px" /><h2 id="headline-70-9" class="ct-headline">Elevate Your Project<br>Performance</h2><div id="text_block-71-9" class="ct-text-block" >With Outsource Developers as your strategic partner, your WordPress development projects will soar to new heights. Our dedicated virtual developers work tirelessly to optimize your website's performance, ensuring lightning-fast load times, seamless navigation, and a flawless user experience. Leave your competitors in the dust with a website that captivates, converts, and inspires.</div>
+		<div id="-read-more-less-203-9" class="oxy-read-more-less custom-readmore " ><div id="-read-more-less-203-9-inner" class="oxy-read-more-inner oxy-inner-content" data-margin="12" data-speed="700" data-open="Learn More" data-close="Close"  data-iconopen="FontAwesomeicon-angle-down" data-icon="disable"><div id="text_block-207-9" class="ct-text-block" >With Outsource Developers as your strategic partner, your WordPress development projects will soar to new heights. Our dedicated virtual developers work tirelessly to optimize your website's performance, ensuring lightning-fast load times, seamless navigation, and a flawless user experience. Leave your competitors in the dust with a website that captivates, converts, and inspires.</div></div><a class="oxy-read-more-link"><span class="oxy-read-more-link_text">Learn More</span></a></div>
+
+		</div></div><div id="div_block-65-9" class="ct-div-block" ><div id="div_block-75-9" class="ct-div-block" ><img  id="image-76-9" alt="" src="https://dedicated.test/wp-content/uploads/2023/05/wordpress-development-02-1.svg" class="ct-image" srcset="" sizes="(max-width: 80px) 100vw, 80px" /><h2 id="headline-77-9" class="ct-headline">Tailored Solutions for<br>Your WordPress Journey</h2><div id="text_block-78-9" class="ct-text-block" >We recognize that every WordPress project is unique, which is why we offer bespoke outsourcing solutions tailored to your specific needs. Our team takes the time to understand your vision, goals, and target audience, crafting a tailor-made strategy that delivers exceptional results. From responsive design to e-commerce functionality, our developers bring your wildest WordPress dreams to life.</div>
+		<div id="-read-more-less-196-9" class="oxy-read-more-less custom-readmore " ><div id="-read-more-less-196-9-inner" class="oxy-read-more-inner oxy-inner-content" data-margin="12" data-speed="700" data-open="Learn More" data-close="Close"  data-iconopen="FontAwesomeicon-angle-down" data-icon="disable"><div id="text_block-200-9" class="ct-text-block" >We recognize that every WordPress project is unique, which is why we offer bespoke outsourcing solutions tailored to your specific needs. Our team takes the time to understand your vision, goals, and target audience, crafting a tailor-made strategy that delivers exceptional results. From responsive design to e-commerce functionality, our developers bring your wildest WordPress dreams to life.</div></div><a class="oxy-read-more-link"><span class="oxy-read-more-link_text">Learn More</span></a></div>
+
+		</div></div></div><div id="new_columns-81-9" class="ct-new-columns" ><div id="div_block-82-9" class="ct-div-block" ><div id="div_block-83-9" class="ct-div-block" ><img  id="image-84-9" alt="" src="https://dedicated.test/wp-content/uploads/2023/05/programming-support-02-1.svg" class="ct-image" srcset="" sizes="(max-width: 80px) 100vw, 80px" /><h2 id="headline-85-9" class="ct-headline">Seamless<br>Integration</h2><div id="text_block-86-9" class="ct-text-block" >Partnering with Outsource Developers is a seamless experience from start to finish. Our virtual developers effortlessly integrate with your existing workflows, tools, and project management systems, ensuring a smooth transition and minimizing any disruption to your operations. With Outsource Developers, expect a collaborative partnership that amplifies your productivity and propels your success.</div>
+		<div id="-read-more-less-189-9" class="oxy-read-more-less custom-readmore " ><div id="-read-more-less-189-9-inner" class="oxy-read-more-inner oxy-inner-content" data-margin="12" data-speed="700" data-open="Learn More" data-close="Close"  data-iconopen="FontAwesomeicon-angle-down" data-icon="disable"><div id="text_block-193-9" class="ct-text-block" >Partnering with Outsource Developers is a seamless experience from start to finish. Our virtual developers effortlessly integrate with your existing workflows, tools, and project management systems, ensuring a smooth transition and minimizing any disruption to your operations. With Outsource Developers, expect a collaborative partnership that amplifies your productivity and propels your success.</div></div><a class="oxy-read-more-link"><span class="oxy-read-more-link_text">Learn More</span></a></div>
+
+		</div></div><div id="div_block-88-9" class="ct-div-block" ><div id="div_block-89-9" class="ct-div-block" ><img  id="image-90-9" alt="" src="https://dedicated.test/wp-content/uploads/2023/05/maintenance-02-1.svg" class="ct-image" srcset="" sizes="(max-width: 80px) 100vw, 80px" /><h2 id="headline-91-9" class="ct-headline">Scalability and<br>Flexibility</h2><div id="text_block-92-9" class="ct-text-block" >As your WordPress needs evolve, we adapt alongside you. Outsource Developers offers scalable outsourcing solutions, allowing you to ramp up or down your virtual developer resources as required. Whether you need a single WordPress expert or an entire team, we provide the agility and flexibility to match your project's demands.<br><br></div>
+		<div id="-read-more-less-185-9" class="oxy-read-more-less custom-readmore " ><div id="-read-more-less-185-9-inner" class="oxy-read-more-inner oxy-inner-content" data-margin="12" data-speed="700" data-open="Learn More" data-close="Close"  data-iconopen="FontAwesomeicon-angle-down" data-icon="disable"><div id="text_block-186-9" class="ct-text-block" >As your WordPress needs evolve, we adapt alongside you. Outsource Developers offers scalable outsourcing solutions, allowing you to ramp up or down your virtual developer resources as required. Whether you need a single WordPress expert or an entire team, we provide the agility and flexibility to match your project's demands.</div></div><a class="oxy-read-more-link"><span class="oxy-read-more-link_text">Learn More</span></a></div>
+
+		</div></div></div></div></section><section id="section-94-9" class=" ct-section" ><div class="ct-section-inner-wrap"><div id="new_columns-95-9" class="ct-new-columns" ><div id="div_block-96-9" class="ct-div-block" ><div id="div_block-98-9" class="ct-div-block" ><h1 id="headline-99-9" class="ct-headline">Security and Confidentiality</h1><h2 id="headline-102-9" class="ct-headline">Your trust is paramount to us</h2><div id="text_block-210-9" class="ct-text-block" >At Outsource Developers, we prioritize the security and confidentiality of your sensitive data, implementing robust safeguards and following industry best practices. With Outsource Developers as your partner, you can rest assured that your WordPress projects are in safe hands.<br><br>Unleash the Full Potential of Your WordPress Development Projects with Outsource Developers.</div><div id="text_block-140-9" class="ct-text-block" ><div style="text-align: left;"><span style="background-color: transparent; font-size: var(--oxy-medium-text-size); font-family: var(--oxy-ui-font-family);"></span></div>Don't let the limitations of in-house resources hinder your WordPress success. Join the ranks of industry leaders who have harnessed the power of Outsource Developers's outsourcing services for virtual WordPress developers. Unlock unparalleled expertise, seamless integration, and unmatched support.<br><a href="/contact/"><b>Contact us</b></a> today and embark on a journey to WordPress excellence like never before.<div style="text-align: center;"><span style="background-color: transparent; font-size: var(--oxy-medium-text-size); font-family: var(--oxy-ui-font-family);"></span></div></div></div></div><div id="div_block-97-9" class="ct-div-block" ><img  id="image-110-9" alt="" src="https://dedicated.test/wp-content/uploads/2023/05/icons-programming-code-1.png" class="ct-image" srcset="https://dedicated.test/wp-content/uploads/2023/05/icons-programming-code-1.png 672w, https://dedicated.test/wp-content/uploads/2023/05/icons-programming-code-1-300x275.png 300w" sizes="(max-width: 672px) 100vw, 672px" /></div></div></div></section><section id="section-111-9" class=" ct-section" ><div class="ct-section-inner-wrap"><h2 id="headline-112-9" class="ct-headline">Our offer? try us risk free</h2><div id="new_columns-113-9" class="ct-new-columns" ><div id="div_block-114-9" class="ct-div-block" ><div id="div_block-117-9" class="ct-div-block" ><img  id="image-118-9" alt="" src="https://dedicated.test/wp-content/uploads/2023/05/choose-02-1.svg" class="ct-image" srcset="" sizes="(max-width: 80px) 100vw, 80px" /><h3 id="headline-119-9" class="ct-headline">Choose the developer</h3><div id="text_block-120-9" class="ct-text-block" >WordPress, PHP, Joomla,<br>Magento</div></div></div><div id="div_block-115-9" class="ct-div-block" ><div id="div_block-121-9" class="ct-div-block" ><img  id="image-122-9" alt="" src="https://dedicated.test/wp-content/uploads/2023/05/free-trial-2-02-1.svg" class="ct-image" srcset="" sizes="(max-width: 80px) 100vw, 80px" /><h3 id="headline-123-9" class="ct-headline">Free trial 14 days</h3><div id="text_block-124-9" class="ct-text-block" >Trial for 2 weeks<br>Free of charge</div></div></div><div id="div_block-116-9" class="ct-div-block" ><div id="div_block-126-9" class="ct-div-block" ><img  id="image-127-9" alt="" src="https://dedicated.test/wp-content/uploads/2023/05/aggrement-icon-02-1.svg" class="ct-image" srcset="" sizes="(max-width: 80px) 100vw, 80px" /><h3 id="headline-128-9" class="ct-headline">Make a Deal</h3><div id="text_block-129-9" class="ct-text-block" >Make a decison<br>No commitment.</div></div></div></div></div></section><section id="section-131-9" class=" ct-section" ><div class="ct-section-inner-wrap"><div id="new_columns-132-9" class="ct-new-columns" ><div id="div_block-133-9" class="ct-div-block" ><h1 id="headline-135-9" class="ct-headline">Start your 14-day free trial</h1><div id="text_block-136-9" class="ct-text-block" >Join with thousands company already growing with Outsource Developers</div></div><div id="div_block-134-9" class="ct-div-block" ><a id="link_button-137-9" class="ct-link-button" href="#" target="_self"  >Get Started</a></div></div></div></section><section id="section-139-9" class=" ct-section" ><div class="ct-section-inner-wrap"><h1 id="headline-141-9" class="ct-headline">Lets talk</h1><h2 id="headline-143-9" class="ct-headline">Have a question?</h2><div id="text_block-145-9" class="ct-text-block" ><div style="text-align: center;"><span style="background-color: transparent; font-size: var(--oxy-medium-text-size); font-family: var(--oxy-ui-font-family);">Tell us your story. Your ideas. What you need to happen. We'll make suggestions, give you ideas</span></div><div style="text-align: center;"><span style="background-color: transparent; font-size: var(--oxy-medium-text-size); font-family: var(--oxy-ui-font-family);">and help you plan ahead.</span></div></div><div id="div_block-150-9" class="ct-div-block" ><div id="shortcode-151-9" class="ct-shortcode gf-custom" ><script type="text/javascript"></script>
+                <div class='gf_browser_unknown gform_wrapper gravity-theme gform-theme--no-framework' data-form-theme='gravity-theme' data-form-index='0' id='gform_wrapper_1' >
+                        <div class='gform_heading'>
+                            <p class='gform_description'></p>
+                        </div><form method='post' enctype='multipart/form-data'  id='gform_1'  action='/' data-formid='1' novalidate>
+                        <div class='gform-body gform_body'><div id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below'><div id="field_1_1"  class="gfield gfield--type-text gfield--width-half gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_1"><label class='gfield_label gform-field-label' for='input_1_1' >Your name<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class='ginput_container ginput_container_text'><input name='input_1' id='input_1_1' type='text' value='' class='large'    placeholder='Your full name' aria-required="true" aria-invalid="false"   /> </div></div><div id="field_1_3"  class="gfield gfield--type-email gfield--width-half gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_3"><label class='gfield_label gform-field-label' for='input_1_3' >Your email<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_3' id='input_1_3' type='email' value='' class='large'   placeholder='you@od-wp.test' aria-required="true" aria-invalid="false"  />
+                        </div></div><div id="field_1_4"  class="gfield gfield--type-text gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_4"><label class='gfield_label gform-field-label' for='input_1_4' >Subject<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class='ginput_container ginput_container_text'><input name='input_4' id='input_1_4' type='text' value='' class='large'    placeholder='Your subject' aria-required="true" aria-invalid="false"   /> </div></div><div id="field_1_5"  class="gfield gfield--type-textarea gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_5"><label class='gfield_label gform-field-label' for='input_1_5' >Your message<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class='ginput_container ginput_container_textarea'><textarea name='input_5' id='input_1_5' class='textarea large'     aria-required="true" aria-invalid="false"   rows='10' cols='50'></textarea></div></div><div id="field_1_6"  class="gfield gfield--type-honeypot gform_validation_container field_sublabel_below gfield--has-description field_description_below gfield_visibility_visible"  data-js-reload="field_1_6"><label class='gfield_label gform-field-label' for='input_1_6' >Phone</label><div class='ginput_container'><input name='input_6' id='input_1_6' type='text' value='' autocomplete='new-password'/></div><div class='gfield_description' id='gfield_description_1_6'>This field is for validation purposes and should be left unchanged.</div></div></div></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_1' class='gform_button button gform-button--width-full' value='Send Messages'  onclick='if(window["gf_submitting_1"]){return false;}  if( !jQuery("#gform_1")[0].checkValidity || jQuery("#gform_1")[0].checkValidity()){window["gf_submitting_1"]=true;}  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_1"]){return false;} if( !jQuery("#gform_1")[0].checkValidity || jQuery("#gform_1")[0].checkValidity()){window["gf_submitting_1"]=true;}  jQuery("#gform_1").trigger("submit",[true]); }' /> 
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsIjQzMzNhMzU2YWE2NjU3NGUwM2U0ZDI5MjQ3Yzg5NGQxIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div><script>
+gform.initializeOnLoaded( function() {gformInitSpinner( 1, 'https://dedicated.test/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'https://dedicated.test/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}, 50);}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [1, current_page]);gform.utils.trigger({ event: 'gform/postRender', native: false, data: { formId: 1, currentPage: current_page } });} );} );
+</script>
+</div></div></div></section></div><section id="section-45-11" class=" ct-section" ><div class="ct-section-inner-wrap"><div id="new_columns-47-11" class="ct-new-columns" ><div id="div_block-48-11" class="ct-div-block" ><img  id="image-50-11" alt="Outsource Developer Logo" src="https://dedicated.test/wp-content/uploads/2023/06/logo-web-outsource-dev-04-1.png" class="ct-image" srcset="" sizes="(max-width: 242px) 100vw, 242px" /><div id="text_block-51-11" class="ct-text-block" >We are an outsourcing website&nbsp;<br>development company providing services<br>to other web development companies,<br>design &amp; marketing agencies.</div></div><div id="div_block-49-11" class="ct-div-block" ><div id="div_block-52-11" class="ct-div-block" ><h2 id="headline-53-11" class="ct-headline" aria-hidden="true">Company</h2><nav id="_nav_menu-54-11" class="oxy-nav-menu oxy-nav-menu-dropdowns oxy-nav-menu-dropdown-arrow oxy-nav-menu-vertical" ><div class='oxy-menu-toggle'><div class='oxy-nav-menu-hamburger-wrap'><div class='oxy-nav-menu-hamburger'><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div></div></div></div><div class="menu-company-container"><ul id="menu-company" class="oxy-nav-menu-list"><li id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item menu-item-105"><a href="https://dedicated.test/" aria-current="page">Home</a></li>
+<li id="menu-item-106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="https://dedicated.test/about/">Our Company</a></li>
+<li id="menu-item-26" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26"><a href="#">Services</a></li>
+<li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="https://dedicated.test/contact/">Contact us</a></li>
+</ul></div></nav></div><div id="div_block-55-11" class="ct-div-block" ><h2 id="headline-56-11" class="ct-headline" aria-hidden="true">Services</h2><nav id="_nav_menu-57-11" class="oxy-nav-menu oxy-nav-menu-dropdowns oxy-nav-menu-dropdown-arrow oxy-nav-menu-vertical" ><div class='oxy-menu-toggle'><div class='oxy-nav-menu-hamburger-wrap'><div class='oxy-nav-menu-hamburger'><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div></div></div></div><div class="menu-services-container"><ul id="menu-services" class="oxy-nav-menu-list"><li id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="https://dedicated.test/service/">Outsource WordPress Developer</a></li>
+<li id="menu-item-109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="https://dedicated.test/service-wordpress-web-development/">WordPress Development</a></li>
+<li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="https://dedicated.test/faq/">Maintenance &#038; Support</a></li>
+</ul></div></nav></div><div id="div_block-58-11" class="ct-div-block" ><h2 id="headline-59-11" class="ct-headline" aria-hidden="true">Contact</h2><div id="div_block-77-11" class="ct-div-block" ><div id="div_block-78-11" class="ct-div-block" ><img  id="image-79-11" alt="" src="https://dedicated.test/wp-content/uploads/2023/05/marker-pin-01-1.svg" class="ct-image" srcset="" sizes="(max-width: 24px) 100vw, 24px" /></div><div id="div_block-80-11" class="ct-div-block" ><a id="link-81-11" class="ct-link" href="#" target="_self"  ><div id="text_block-82-11" class="ct-text-block" >Outsource Developers Jakarta Indonesia</div></a></div></div><div id="div_block-83-11" class="ct-div-block" ><div id="div_block-84-11" class="ct-div-block" ><img  id="image-85-11" alt="" src="https://dedicated.test/wp-content/uploads/2023/05/mail-01-1.svg" class="ct-image" srcset="" sizes="(max-width: 24px) 100vw, 24px" /></div><div id="div_block-86-11" class="ct-div-block" ><a id="link-87-11" class="ct-link" href="mailto:info@od-wp.test" target="_self"  ><div id="text_block-88-11" class="ct-text-block" >info@od-wp.test</div></a></div></div><div id="div_block-89-11" class="ct-div-block" ><div id="div_block-90-11" class="ct-div-block" ><img  id="image-91-11" alt="" src="https://dedicated.test/wp-content/uploads/2023/05/link-03-1.svg" class="ct-image" srcset="" sizes="(max-width: 24px) 100vw, 24px" /></div><div id="div_block-92-11" class="ct-div-block" ><a id="link-93-11" class="ct-link" href="https://od-wp.test" target="_self"  ><div id="text_block-94-11" class="ct-text-block" >od-wp.test</div></a></div></div></div></div></div></div></section><section id="section-28-11" class=" ct-section" ><div class="ct-section-inner-wrap"><div id="new_columns-29-11" class="ct-new-columns" ><div id="div_block-30-11" class="ct-div-block" >
+		<span id="-copyright-year-97-11" class="oxy-copyright-year " > © 2023 . All rights reserved.</span>
+
+		</div><div id="div_block-31-11" class="ct-div-block" ></div></div></div></section>	<!-- WP_FOOTER -->
+<style>.ct-FontAwesomeicon-close{width:0.78571428571429em}</style>
+<style>.ct-FontAwesomeicon-angle-down{width:0.64285714285714em}</style>
+<style>.ct-FontAwesomeicon-ellipsis-v{width:0.21428571428571em}</style>
+<?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"><defs><symbol id="FontAwesomeicon-close" viewBox="0 0 22 28"><title>close</title><path d="M20.281 20.656c0 0.391-0.156 0.781-0.438 1.062l-2.125 2.125c-0.281 0.281-0.672 0.438-1.062 0.438s-0.781-0.156-1.062-0.438l-4.594-4.594-4.594 4.594c-0.281 0.281-0.672 0.438-1.062 0.438s-0.781-0.156-1.062-0.438l-2.125-2.125c-0.281-0.281-0.438-0.672-0.438-1.062s0.156-0.781 0.438-1.062l4.594-4.594-4.594-4.594c-0.281-0.281-0.438-0.672-0.438-1.062s0.156-0.781 0.438-1.062l2.125-2.125c0.281-0.281 0.672-0.438 1.062-0.438s0.781 0.156 1.062 0.438l4.594 4.594 4.594-4.594c0.281-0.281 0.672-0.438 1.062-0.438s0.781 0.156 1.062 0.438l2.125 2.125c0.281 0.281 0.438 0.672 0.438 1.062s-0.156 0.781-0.438 1.062l-4.594 4.594 4.594 4.594c0.281 0.281 0.438 0.672 0.438 1.062z"/></symbol><symbol id="FontAwesomeicon-angle-down" viewBox="0 0 18 28"><title>angle-down</title><path d="M16.797 11.5c0 0.125-0.063 0.266-0.156 0.359l-7.281 7.281c-0.094 0.094-0.234 0.156-0.359 0.156s-0.266-0.063-0.359-0.156l-7.281-7.281c-0.094-0.094-0.156-0.234-0.156-0.359s0.063-0.266 0.156-0.359l0.781-0.781c0.094-0.094 0.219-0.156 0.359-0.156 0.125 0 0.266 0.063 0.359 0.156l6.141 6.141 6.141-6.141c0.094-0.094 0.234-0.156 0.359-0.156s0.266 0.063 0.359 0.156l0.781 0.781c0.094 0.094 0.156 0.234 0.156 0.359z"/></symbol><symbol id="FontAwesomeicon-ellipsis-v" viewBox="0 0 6 28"><title>ellipsis-v</title><path d="M6 19.5v3c0 0.828-0.672 1.5-1.5 1.5h-3c-0.828 0-1.5-0.672-1.5-1.5v-3c0-0.828 0.672-1.5 1.5-1.5h3c0.828 0 1.5 0.672 1.5 1.5zM6 11.5v3c0 0.828-0.672 1.5-1.5 1.5h-3c-0.828 0-1.5-0.672-1.5-1.5v-3c0-0.828 0.672-1.5 1.5-1.5h3c0.828 0 1.5 0.672 1.5 1.5zM6 3.5v3c0 0.828-0.672 1.5-1.5 1.5h-3c-0.828 0-1.5-0.672-1.5-1.5v-3c0-0.828 0.672-1.5 1.5-1.5h3c0.828 0 1.5 0.672 1.5 1.5z"/></symbol></defs></svg><?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"><defs><symbol id="Lineariconsicon-chevron-down" viewBox="0 0 20 20"><title>chevron-down</title><path class="path1" d="M0 6c0-0.128 0.049-0.256 0.146-0.354 0.195-0.195 0.512-0.195 0.707 0l8.646 8.646 8.646-8.646c0.195-0.195 0.512-0.195 0.707 0s0.195 0.512 0 0.707l-9 9c-0.195 0.195-0.512 0.195-0.707 0l-9-9c-0.098-0.098-0.146-0.226-0.146-0.354z"/></symbol><symbol id="Lineariconsicon-arrow-right" viewBox="0 0 20 20"><title>arrow-right</title><path class="path1" d="M19.354 10.146l-6-6c-0.195-0.195-0.512-0.195-0.707 0s-0.195 0.512 0 0.707l5.146 5.146h-16.293c-0.276 0-0.5 0.224-0.5 0.5s0.224 0.5 0.5 0.5h16.293l-5.146 5.146c-0.195 0.195-0.195 0.512 0 0.707 0.098 0.098 0.226 0.146 0.354 0.146s0.256-0.049 0.354-0.146l6-6c0.195-0.195 0.195-0.512 0-0.707z"/></symbol></defs></svg>
+        <script type="text/javascript">
+
+            function oxygen_init_pro_menu() {
+                jQuery('.oxy-pro-menu-container').each(function(){
+                    
+                    // dropdowns
+                    var menu = jQuery(this),
+                        animation = menu.data('oxy-pro-menu-dropdown-animation'),
+                        animationDuration = menu.data('oxy-pro-menu-dropdown-animation-duration');
+                    
+                    jQuery('.sub-menu', menu).attr('data-aos',animation);
+                    jQuery('.sub-menu', menu).attr('data-aos-duration',animationDuration*1000);
+
+                    oxygen_offcanvas_menu_init(menu);
+                    jQuery(window).resize(function(){
+                        oxygen_offcanvas_menu_init(menu);
+                    });
+
+                    // let certain CSS rules know menu being initialized
+                    // "10" timeout is extra just in case, "0" would be enough
+                    setTimeout(function() {menu.addClass('oxy-pro-menu-init');}, 10);
+                });
+            }
+
+            jQuery(document).ready(oxygen_init_pro_menu);
+            document.addEventListener('oxygen-ajax-element-loaded', oxygen_init_pro_menu, false);
+            
+            let proMenuMouseDown = false;
+
+            jQuery(".oxygen-body")
+            .on("mousedown", '.oxy-pro-menu-show-dropdown:not(.oxy-pro-menu-open-container) .menu-item-has-children', function(e) {
+                proMenuMouseDown = true;
+            })
+
+            .on("mouseup", '.oxy-pro-menu-show-dropdown:not(.oxy-pro-menu-open-container) .menu-item-has-children', function(e) {
+                proMenuMouseDown = false;
+            })
+
+            .on('mouseenter focusin', '.oxy-pro-menu-show-dropdown:not(.oxy-pro-menu-open-container) .menu-item-has-children', function(e) {
+                if( proMenuMouseDown ) return;
+                
+                var subMenu = jQuery(this).children('.sub-menu');
+                subMenu.addClass('aos-animate oxy-pro-menu-dropdown-animating').removeClass('sub-menu-left');
+
+                var duration = jQuery(this).parents('.oxy-pro-menu-container').data('oxy-pro-menu-dropdown-animation-duration');
+
+                setTimeout(function() {subMenu.removeClass('oxy-pro-menu-dropdown-animating')}, duration*1000);
+
+                var offset = subMenu.offset(),
+                    width = subMenu.width(),
+                    docWidth = jQuery(window).width();
+
+                    if (offset.left+width > docWidth) {
+                        subMenu.addClass('sub-menu-left');
+                    }
+            })
+            
+            .on('mouseleave focusout', '.oxy-pro-menu-show-dropdown .menu-item-has-children', function() {
+                jQuery(this).children('.sub-menu').removeClass('aos-animate');
+
+                var subMenu = jQuery(this).children('.sub-menu');
+                //subMenu.addClass('oxy-pro-menu-dropdown-animating-out');
+
+                var duration = jQuery(this).parents('.oxy-pro-menu-container').data('oxy-pro-menu-dropdown-animation-duration');
+                setTimeout(function() {subMenu.removeClass('oxy-pro-menu-dropdown-animating-out')}, duration*1000);
+            })
+
+            // open icon click
+            .on('click', '.oxy-pro-menu-mobile-open-icon', function() {    
+                var menu = jQuery(this).parents('.oxy-pro-menu');
+                // off canvas
+                if (jQuery(this).hasClass('oxy-pro-menu-off-canvas-trigger')) {
+                    oxygen_offcanvas_menu_run(menu);
+                }
+                // regular
+                else {
+                    menu.addClass('oxy-pro-menu-open');
+                    jQuery(this).siblings('.oxy-pro-menu-container').addClass('oxy-pro-menu-open-container');
+                    jQuery('body').addClass('oxy-nav-menu-prevent-overflow');
+                    jQuery('html').addClass('oxy-nav-menu-prevent-overflow');
+                    
+                    oxygen_pro_menu_set_static_width(menu);
+                }
+                // remove animation and collapse
+                jQuery('.sub-menu', menu).attr('data-aos','');
+                jQuery('.oxy-pro-menu-dropdown-toggle .sub-menu', menu).slideUp(0);
+            });
+
+            function oxygen_pro_menu_set_static_width(menu) {
+                var menuItemWidth = jQuery(".oxy-pro-menu-list > .menu-item", menu).width();
+                jQuery(".oxy-pro-menu-open-container > div:first-child, .oxy-pro-menu-off-canvas-container > div:first-child", menu).width(menuItemWidth);
+            }
+
+            function oxygen_pro_menu_unset_static_width(menu) {
+                jQuery(".oxy-pro-menu-container > div:first-child", menu).width("");
+            }
+
+            // close icon click
+            jQuery('body').on('click', '.oxy-pro-menu-mobile-close-icon', function(e) {
+                
+                var menu = jQuery(this).parents('.oxy-pro-menu');
+
+                menu.removeClass('oxy-pro-menu-open');
+                jQuery(this).parents('.oxy-pro-menu-container').removeClass('oxy-pro-menu-open-container');
+                jQuery('.oxy-nav-menu-prevent-overflow').removeClass('oxy-nav-menu-prevent-overflow');
+
+                if (jQuery(this).parent('.oxy-pro-menu-container').hasClass('oxy-pro-menu-off-canvas-container')) {
+                    oxygen_offcanvas_menu_run(menu);
+                }
+
+                oxygen_pro_menu_unset_static_width(menu);
+            });
+
+            // dropdown toggle icon click
+            jQuery('body').on(
+                'touchstart click', 
+                '.oxy-pro-menu-dropdown-links-toggle.oxy-pro-menu-off-canvas-container .menu-item-has-children > a > .oxy-pro-menu-dropdown-icon-click-area,'+
+                '.oxy-pro-menu-dropdown-links-toggle.oxy-pro-menu-open-container .menu-item-has-children > a > .oxy-pro-menu-dropdown-icon-click-area', 
+                function(e) {
+                    e.preventDefault();
+
+                    // fix for iOS false triggering submenu clicks
+                    jQuery('.sub-menu').css('pointer-events', 'none');
+                    setTimeout( function() {
+                        jQuery('.sub-menu').css('pointer-events', 'initial');
+                    }, 500);
+
+                    // workaround to stop click event from triggering after touchstart
+                    if (window.oxygenProMenuIconTouched === true) {
+                        window.oxygenProMenuIconTouched = false;
+                        return;
+                    }
+                    if (e.type==='touchstart') {
+                        window.oxygenProMenuIconTouched = true;
+                    }
+                    oxygen_pro_menu_toggle_dropdown(this);
+                }
+            );
+
+            function oxygen_pro_menu_toggle_dropdown(trigger) {
+
+                var duration = jQuery(trigger).parents('.oxy-pro-menu-container').data('oxy-pro-menu-dropdown-animation-duration');
+
+                jQuery(trigger).closest('.menu-item-has-children').children('.sub-menu').slideToggle({
+                    start: function () {
+                        jQuery(this).css({
+                            display: "flex"
+                        })
+                    },
+                    duration: duration*1000
+                });
+            }
+                    
+            // fullscreen menu link click
+            var selector = '.oxy-pro-menu-open .menu-item a';
+            jQuery('body').on('click', selector, function(event){
+                
+                if (jQuery(event.target).closest('.oxy-pro-menu-dropdown-icon-click-area').length > 0) {
+                    // toggle icon clicked, no need to hide the menu
+                    return;
+                }
+                else if ((jQuery(this).attr("href") === "#" || jQuery(this).closest(".oxy-pro-menu-container").data("entire-parent-toggles-dropdown")) && 
+                         jQuery(this).parent().hasClass('menu-item-has-children')) {
+                    // empty href don't lead anywhere, treat it as toggle trigger
+                    oxygen_pro_menu_toggle_dropdown(event.target);
+                    // keep anchor links behavior as is, and prevent regular links from page reload
+                    if (jQuery(this).attr("href").indexOf("#")!==0) {
+                        return false;
+                    }
+                }
+
+                // hide the menu and follow the anchor
+                if (jQuery(this).attr("href").indexOf("#")===0) {
+                    jQuery('.oxy-pro-menu-open').removeClass('oxy-pro-menu-open');
+                    jQuery('.oxy-pro-menu-open-container').removeClass('oxy-pro-menu-open-container');
+                    jQuery('.oxy-nav-menu-prevent-overflow').removeClass('oxy-nav-menu-prevent-overflow');
+                }
+
+            });
+
+            // off-canvas menu link click
+            var selector = '.oxy-pro-menu-off-canvas .menu-item a';
+            jQuery('body').on('click', selector, function(event){
+                if (jQuery(event.target).closest('.oxy-pro-menu-dropdown-icon-click-area').length > 0) {
+                    // toggle icon clicked, no need to trigger it 
+                    return;
+                }
+                else if ((jQuery(this).attr("href") === "#" || jQuery(this).closest(".oxy-pro-menu-container").data("entire-parent-toggles-dropdown")) && 
+                    jQuery(this).parent().hasClass('menu-item-has-children')) {
+                    // empty href don't lead anywhere, treat it as toggle trigger
+                    oxygen_pro_menu_toggle_dropdown(event.target);
+                    // keep anchor links behavior as is, and prevent regular links from page reload
+                    if (jQuery(this).attr("href").indexOf("#")!==0) {
+                        return false;
+                    }
+                }
+            });
+
+            // off canvas
+            function oxygen_offcanvas_menu_init(menu) {
+
+                // only init off-canvas animation if trigger icon is visible i.e. mobile menu in action
+                var offCanvasActive = jQuery(menu).siblings('.oxy-pro-menu-off-canvas-trigger').css('display');
+                if (offCanvasActive!=='none') {
+                    var animation = menu.data('oxy-pro-menu-off-canvas-animation');
+                    setTimeout(function() {menu.attr('data-aos', animation);}, 10);
+                }
+                else {
+                    // remove AOS
+                    menu.attr('data-aos', '');
+                };
+            }
+            
+            function oxygen_offcanvas_menu_run(menu) {
+
+                var container = menu.find(".oxy-pro-menu-container");
+                
+                if (!container.attr('data-aos')) {
+                    // initialize animation
+                    setTimeout(function() {oxygen_offcanvas_menu_toggle(menu, container)}, 0);
+                }
+                else {
+                    oxygen_offcanvas_menu_toggle(menu, container);
+                }
+            }
+
+            var oxygen_offcanvas_menu_toggle_in_progress = false;
+
+            function oxygen_offcanvas_menu_toggle(menu, container) {
+
+                if (oxygen_offcanvas_menu_toggle_in_progress) {
+                    return;
+                }
+
+                container.toggleClass('aos-animate');
+
+                if (container.hasClass('oxy-pro-menu-off-canvas-container')) {
+                    
+                    oxygen_offcanvas_menu_toggle_in_progress = true;
+                    
+                    var animation = container.data('oxy-pro-menu-off-canvas-animation'),
+                        timeout = container.data('aos-duration');
+
+                    if (!animation){
+                        timeout = 0;
+                    }
+
+                    setTimeout(function() {
+                        container.removeClass('oxy-pro-menu-off-canvas-container')
+                        menu.removeClass('oxy-pro-menu-off-canvas');
+                        oxygen_offcanvas_menu_toggle_in_progress = false;
+                    }, timeout);
+                }
+                else {
+                    container.addClass('oxy-pro-menu-off-canvas-container');
+                    menu.addClass('oxy-pro-menu-off-canvas');
+                    oxygen_pro_menu_set_static_width(menu);
+                }
+            }
+        </script>
+
+                
+            <script type="text/javascript">
+            jQuery(document).ready(oxygen_init_readmore);
+            function oxygen_init_readmore($) {
+                
+               let extrasReadmore = function ( container ) {
+                    
+                    $(container).find('.oxy-read-more-inner').each(function(i, oxyReadMore){
+
+                        let readMore = $(oxyReadMore),
+                            readMoreID = readMore.attr('ID'),
+                            openText = readMore.data( 'open' ),
+                            closeText = readMore.data( 'close' ),
+                            speed = readMore.data( 'speed' ),
+                            heightMargin = readMore.data( 'margin' ), 
+                            icon = ('enable' === readMore.data( 'icon' )) ? '<span class="oxy-read-more-link_icon"><svg class="oxy-read-more-link_icon-svg"><use xlink:href="#' + readMore.data( 'iconopen' ) + '"></use></svg></span>' : '',
+
+                            moreText = '<a href=# class=oxy-read-more-link><span class="oxy-read-more-link_text">' + openText + '</span>' + icon +'</a>',
+                            lessText = '<a href=# class=oxy-read-more-link><span class="oxy-read-more-link_text">' + closeText + '</span>' + icon +'</a>';
+
+                            readMore.attr('id', readMoreID + '_' + i);
+                        
+                            if ($(oxyReadMore).closest('.oxy-dynamic-list').length) {
+                                readMore.attr('id', readMoreID + '_' + $(oxyReadMore).closest('.oxy-dynamic-list > .ct-div-block').index() + 1);
+                            }
+                    
+                        function doReadMore() {
+
+                            new Readmore(readMore, {
+                                  speed: speed,
+                                  moreLink: moreText,
+                                  lessLink: lessText,
+                                  embedCSS: false,
+                                  collapsedHeight: parseInt(readMore.css('max-height')),
+                                  heightMargin: heightMargin,
+                                  beforeToggle: function(trigger, element, expanded) {
+                                    if(!expanded) { // The "Close" link was clicked
+                                      $(element).addClass('oxy-read-more-less_expanded');
+                                      readMore.parent('.oxy-read-more-less').trigger('extras_readmore:expand');
+                                    } else {  
+                                      $(element).removeClass('oxy-read-more-less_expanded');
+                                      readMore.parent('.oxy-read-more-less').trigger('extras_readmore:collapse');
+                                    }
+                                  },
+                                  afterToggle: function(trigger, element, expanded) {
+                                    if(expanded) {
+                                        readMore.parent('.oxy-read-more-less').trigger('extras_readmore:expanded');
+                                    } else {
+                                        readMore.parent('.oxy-read-more-less').trigger('extras_readmore:collapsed');
+                                    }
+                                  },
+                                  blockProcessed: function(element, collapsable) {
+                                    if(! collapsable) {
+                                     readMore.addClass('oxy-read-more-less_not-collapsable');
+                                     readMore.parent('.oxy-read-more-less').find('.oxy-read-more-link').remove();
+                                    }
+                                  }
+                                });
+
+                                $('.oxy-read-more-link + .oxy-read-more-link').remove();
+
+                            }
+
+                        doReadMore();
+
+                        if (readMore.closest('.oxy-tabs-contents').length) {
+                            $('.oxy-tab').on('click', function() {
+                                readMore.css('max-height', '')
+                                setTimeout(function() {
+                                    doReadMore();
+                                    readMore.siblings('.oxy-read-more-link + .oxy-read-more-link').remove();
+                                    window.dispatchEvent(new Event('resize'));
+                                }, 10);
+                            });
+                        }
+
+                        if (readMore.closest('.oxy-pro-accordion').length) {
+                            readMore.closest('.oxy-pro-accordion').on('extras_pro_accordion:toggle', function() {
+                                doReadMore();
+                                readMore.siblings('.oxy-read-more-link + .oxy-read-more-link').remove();
+                            });
+                        }
+
+                    }); 
+                    
+                    window.dispatchEvent(new Event('resize'));
+
+                    /* Force resize again after everything loaded (for Safari fix) */
+                    jQuery(window).on('load', function(){
+                        setTimeout(function(){
+                            window.dispatchEvent(new Event('resize'));
+                        }, 1000);
+                    });
+                    
+                }
+                
+                extrasReadmore('body');
+                
+                // Expose function
+                window.doExtrasReadmore = extrasReadmore;
+                
+                
+            }</script>
+        
+    
+		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				jQuery('body').on('click', '.oxy-menu-toggle', function() {
+					jQuery(this).parent('.oxy-nav-menu').toggleClass('oxy-nav-menu-open');
+					jQuery('body').toggleClass('oxy-nav-menu-prevent-overflow');
+					jQuery('html').toggleClass('oxy-nav-menu-prevent-overflow');
+				});
+				var selector = '.oxy-nav-menu-open .menu-item a[href*="#"]';
+				jQuery('body').on('click', selector, function(){
+					jQuery('.oxy-nav-menu-open').removeClass('oxy-nav-menu-open');
+					jQuery('body').removeClass('oxy-nav-menu-prevent-overflow');
+					jQuery('html').removeClass('oxy-nav-menu-prevent-overflow');
+					jQuery(this).click();
+				});
+			});
+		</script>
+
+	<link rel='stylesheet' id='oxygen-aos-css' href='https://dedicated.test/wp-content/plugins/oxygen/component-framework/vendor/aos/aos.css?ver=6.2.2' media='all' />
+<link rel='stylesheet' id='gform_basic-css' href='https://dedicated.test/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css?ver=2.7.7' media='all' />
+<link rel='stylesheet' id='gform_theme_components-css' href='https://dedicated.test/wp-content/plugins/gravityforms/assets/css/dist/theme-components.min.css?ver=2.7.7' media='all' />
+<link rel='stylesheet' id='gform_theme_ie11-css' href='https://dedicated.test/wp-content/plugins/gravityforms/assets/css/dist/theme-ie11.min.css?ver=2.7.7' media='all' />
+<link rel='stylesheet' id='gform_theme-css' href='https://dedicated.test/wp-content/plugins/gravityforms/assets/css/dist/theme.min.css?ver=2.7.7' media='all' />
+<script src='https://dedicated.test/wp-content/plugins/oxygen/component-framework/vendor/aos/aos.js?ver=1' id='oxygen-aos-js'></script>
+<script src='https://dedicated.test/wp-content/plugins/logo-carousel-free/public/assets/js/swiper-bundle.min.js?ver=3.4.20' id='sp-lc-swiper-js-js'></script>
+<script src='https://dedicated.test/wp-content/plugins/logo-carousel-free/public/assets/js/splc-script.min.js?ver=3.4.20' id='sp-lc-script-js'></script>
+<script src='https://dedicated.test/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2' id='wp-polyfill-inert-js'></script>
+<script src='https://dedicated.test/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11' id='regenerator-runtime-js'></script>
+<script src='https://dedicated.test/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script src='https://dedicated.test/wp-includes/js/dist/dom-ready.min.js?ver=392bdd43726760d1f3ca' id='wp-dom-ready-js'></script>
+<script src='https://dedicated.test/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5' id='wp-hooks-js'></script>
+<script src='https://dedicated.test/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae' id='wp-i18n-js'></script>
+<script id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script src='https://dedicated.test/wp-includes/js/dist/a11y.min.js?ver=ecce20f002eda4c19664' id='wp-a11y-js'></script>
+<script defer='defer' src='https://dedicated.test/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.7.7' id='gform_json-js'></script>
+<script id='gform_gravityforms-js-extra'>
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/dedicated.test\/wp-content\/plugins\/gravityforms\/images"}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https:\/\/dedicated.test\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/dedicated.test\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"8234900e613838a630d49088288923e8","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+</script>
+<script defer='defer' src='https://dedicated.test/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.7.7' id='gform_gravityforms-js'></script>
+<script defer='defer' src='https://dedicated.test/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.7.7' id='gform_placeholder-js'></script>
+<script defer='defer' src='https://dedicated.test/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=1329f9a0886f2ff3fb51c6f17277eb75' id='gform_gravityforms_utils-js'></script>
+<script defer='defer' src='https://dedicated.test/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=4ef53fe41c14a48b294541d9fc37387e' id='gform_gravityforms_theme_vendors-js'></script>
+<script id='gform_gravityforms_theme-js-extra'>
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"8234900e613838a630d49088288923e8"}}},"hmr_dev":"","public_path":"https:\/\/dedicated.test\/wp-content\/plugins\/gravityforms\/assets\/js\/dist\/"};
+</script>
+<script defer='defer' src='https://dedicated.test/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=443293948084ca0fe29518ebcd01dc6b' id='gform_gravityforms_theme-js'></script>
+<script src='https://dedicated.test/wp-content/plugins/oxyextras/components/assets/readmore.min.js?ver=3.0.1' id='readmore-js-js'></script>
+<script src='https://dedicated.test/wp-content/plugins/oxyextras/includes/js/gridbuildersupport.js?ver=1.0.1' id='gridbuildersupport-js'></script>
+<script type="text/javascript" id="ct-footer-js">
+	  	AOS.init({
+	  		  		  		  		  		  		  				  			})
+		
+				jQuery('body').addClass('oxygen-aos-enabled');
+		
+		
+	</script><style type="text/css" id="ct_code_block_css_28">body:not(.ng-scope) :is(.oxel_logo_slider, #incspec) {
+	flex-direction: row;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
+	height: 100px;
+	
+	--animationspeed: 30s;
+	--animationdelay: calc( var(--animationspeed) / 2 );
+}
+
+body:not(.ng-scope) .oxel_logo_slider__image_carrier {
+	flex-shrink: 0;
+	position: absolute;
+	animation-name: slidelogo;
+	animation-duration: var(--animationspeed);
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+body:not(.ng-scope) .oxel_logo_slider__image_carrier--delay {
+	transform: translateX(100%);
+	animation-name: slidelogo;
+	animation-delay: calc(var(--animationdelay) * -1);
+}
+
+.oxel_logo_slider:hover .oxel_logo_slider__image_carrier {
+	animation-play-state: paused;
+}
+
+@keyframes slidelogo {
+	from {
+		transform: translateX(100%);
+	}
+	to {
+		transform: translateX(-100%);
+	}
+}
+</style>
+<script>
+gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
+</script>
+<script>
+gform.initializeOnLoaded( function() {jQuery(document).trigger('gform_post_render', [1, 1]);gform.utils.trigger({ event: 'gform/postRender', native: false, data: { formId: 1, currentPage: 1 } });} );
+</script>
+<!-- /WP_FOOTER --> 
+</body>
+</html>
