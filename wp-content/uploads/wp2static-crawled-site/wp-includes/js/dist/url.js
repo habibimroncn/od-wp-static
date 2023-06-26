@@ -734,7 +734,7 @@ function getQueryString(url) {
   let query;
 
   try {
-    query = new URL(url, 'http://od-wp.test').search.substring(1);
+    query = new URL(url, 'http://benevolent-brioche-1fe4b7.netlify.app').search.substring(1);
   } catch (error) {}
 
   if (query) {
@@ -1298,7 +1298,7 @@ function getFilename(url) {
   let filename;
 
   try {
-    filename = new URL(url, 'http://od-wp.test').pathname.split('/').pop();
+    filename = new URL(url, 'http://benevolent-brioche-1fe4b7.netlify.app').pathname.split('/').pop();
   } catch (error) {}
 
   if (filename) {

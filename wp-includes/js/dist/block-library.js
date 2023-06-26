@@ -34530,7 +34530,7 @@ const navigation_link_settings = {
   example: {
     attributes: {
       label: (0,external_wp_i18n_namespaceObject._x)('Example Link', 'navigation link preview example'),
-      url: 'https://od-wp.test'
+      url: 'https://benevolent-brioche-1fe4b7.netlify.app'
     }
   },
   deprecated: [{

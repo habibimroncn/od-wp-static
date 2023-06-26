@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//od-wp.test/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//benevolent-brioche-1fe4b7.netlify.app/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc>https://od-wp.test/post-sitemap.xml</loc>
+		<loc>https://benevolent-brioche-1fe4b7.netlify.app/post-sitemap.xml</loc>
 		<lastmod>2023-06-07T05:11:06+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://od-wp.test/page-sitemap.xml</loc>
+		<loc>https://benevolent-brioche-1fe4b7.netlify.app/page-sitemap.xml</loc>
 		<lastmod>2023-06-08T03:42:44+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://od-wp.test/category-sitemap.xml</loc>
+		<loc>https://benevolent-brioche-1fe4b7.netlify.app/category-sitemap.xml</loc>
 		<lastmod>2023-06-07T05:11:06+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://od-wp.test/author-sitemap.xml</loc>
+		<loc>https://benevolent-brioche-1fe4b7.netlify.app/author-sitemap.xml</loc>
 		<lastmod>2023-06-14T04:42:41+00:00</lastmod>
 	</sitemap>
 </sitemapindex>

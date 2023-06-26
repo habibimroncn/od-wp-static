@@ -3,6 +3,6 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://od-wp.test/sitemap_index.xml
+Sitemap: https://benevolent-brioche-1fe4b7.netlify.app/sitemap_index.xml
 # ---------------------------
 # END YOAST BLOCK

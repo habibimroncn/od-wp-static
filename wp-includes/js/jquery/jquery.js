@@ -9616,7 +9616,7 @@ jQuery.extend( {
 
 			// Support: IE <=8 - 11, Edge 12 - 15
 			// IE throws exception on accessing the href property if url is malformed,
-			// e.g. http://od-wp.test:80x/
+			// e.g. http://benevolent-brioche-1fe4b7.netlify.app:80x/
 			try {
 				urlAnchor.href = s.url;
 

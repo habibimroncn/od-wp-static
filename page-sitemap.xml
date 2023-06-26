@@ -1,31 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//od-wp.test/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//benevolent-brioche-1fe4b7.netlify.app/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://od-wp.test/</loc>
+		<loc>https://benevolent-brioche-1fe4b7.netlify.app/</loc>
 		<lastmod>2023-06-08T03:36:47+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://od-wp.test/contact/</loc>
+		<loc>https://benevolent-brioche-1fe4b7.netlify.app/contact/</loc>
 		<lastmod>2023-06-08T03:29:37+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://od-wp.test/about/</loc>
+		<loc>https://benevolent-brioche-1fe4b7.netlify.app/about/</loc>
 		<lastmod>2023-06-08T03:30:47+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://od-wp.test/faq/</loc>
+		<loc>https://benevolent-brioche-1fe4b7.netlify.app/faq/</loc>
 		<lastmod>2023-06-08T03:32:51+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://od-wp.test/introduce-outsource/</loc>
+		<loc>https://benevolent-brioche-1fe4b7.netlify.app/introduce-outsource/</loc>
 		<lastmod>2023-06-08T03:39:02+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://od-wp.test/service/</loc>
+		<loc>https://benevolent-brioche-1fe4b7.netlify.app/service/</loc>
 		<lastmod>2023-06-08T03:41:44+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://od-wp.test/service-wordpress-web-development/</loc>
+		<loc>https://benevolent-brioche-1fe4b7.netlify.app/service-wordpress-web-development/</loc>
 		<lastmod>2023-06-08T03:42:44+00:00</lastmod>
 	</url>
 </urlset>
